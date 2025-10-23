@@ -8,7 +8,7 @@
         <h2 class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
         <p class="mb-10 text-sm text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem harum alias doloremque sequi accusantium molestiae quisquam ipsa? Atque libero, numquam incidunt blanditiis nostrum amet a veritatis? Tempore, commodi assumenda?</p>
 
-        <a href="/contact" class="py-2 border-2 border-[#e07b1c] hover:bg-[#000] hover:text-white hover:border-[#000] transition-colors duration-300 px-5 rounded-4xl text-white font-semibold bg-[#e07b1c]">Join us</a>
+        <a href="/contact" class="py-3 border-2 border-[#e07b1c] hover:bg-[#000] hover:text-white hover:border-[#000] transition-colors duration-300 px-5 rounded-tl-2xl rounded-br-2xl text-white font-semibold bg-[#e07b1c]">Join us</a>
     </div>
 
     <div class="relative w-full">

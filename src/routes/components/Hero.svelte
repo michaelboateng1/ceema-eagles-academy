@@ -3,7 +3,7 @@
     import HeroCards from "./HeroCards.svelte";
 </script>
 
-<section class="h-screen w-full flex flex-col justify-center items-center relative">
+<section class="h-screen w-full flex flex-col justify-center items-center relative mb-20">
     <div class="flex flex-col justify-center items-center">
         <div class="w-40 h-auto mb-10 rounded-lg overflow-hidden">
             <img src={image1} alt="School Logo" class="w-full h-full object-fit" />
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center items-center gap-8 absolute px-30 -bottom-20">
+    <div class="flex container mx-auto justify-center items-center gap-8 absolute px-30 -bottom-20">
         <HeroCards />
         <HeroCards />
         <HeroCards />
