@@ -2,6 +2,8 @@
     import { onMount } from 'svelte';
     import NavBar from "./NavBar.svelte";
 
+    const {page} = $props();
+
     let scrolled = $state(false);
 
 	onMount(() => {
@@ -19,7 +21,7 @@
 	});
 </script>
 
-<header class="fixed top-0 z-10 w-full transition-all duration-300 {scrolled ? 'bg-white text-[#333] shadow-md' : 'header-bg text-white'}">
+<header class="fixed top-0 z-10 w-full transition-all duration-300 {scrolled || page !== "home" ? 'bg-white text-[#333] shadow-md' : 'header-bg text-white'}">
     <NavBar />
 </header>
 
