@@ -39,7 +39,7 @@
         <div class="shadow-lg rounded-sm border-t-4 ">
             <div class="px-10 py-5 cursor-pointer text-md font-bold flex justify-between items-center" onclick={() => toggleFaq(i)}>
                 <h2>{faq.question}</h2>
-                <i class="fa-solid fa-chevron-down transform transition-all duration-300 {i === open ? 'rotate-180' : 'rotate-0'}"></i>
+                <i class="fa-solid fa-chevron-down transform transition-all duration-300 {i === currentFaq ? 'rotate-180' : 'rotate-0'}"></i>
             </div>
             <p class="transition-all duration-300 px-10 text-sm {i === currentFaq ? "opacity-100 max-h-screen py-4" : "max-h-0 opacity-0 py-0 overflow-hidden"}">{faq.answer}</p>
         </div>
