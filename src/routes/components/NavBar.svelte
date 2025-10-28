@@ -17,7 +17,7 @@
             <a href="/contact" class="text-lg">Contact</a>
         </li>
         <li>
-            <a href="/programs" class="text-lg">Programs</a>
+            <a href="/our-programs" class="text-lg">Programs</a>
         </li>
         <li>
             <a href="/our-community" class="text-lg">Our Community</a>

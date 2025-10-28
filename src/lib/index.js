@@ -1,28 +1,65 @@
 // place files you want to import through the `$lib` alias in this folder.
 
-import image1 from "$lib/assets/images/children-1144109_1280.jpg";
+import ourProgramsImage1 from "$lib/assets/images/children-1144109_1280.jpg";
+
+import teachersImage1 from "$lib/assets/images/children-1144109_1280.jpg";
+
+
+
+export const ourPrograms = [
+    {
+        image: ourProgramsImage1,
+        title: "Robotics Training",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est harum doloremque debitis eum alias recusandae totam velit nesciunt. Laudantium vitae quasi culpa! Cum, ipsa dicta doloremque doloribus assumenda earum nam!"
+    },
+    {
+        image: ourProgramsImage1,
+        title: "Robotics Training",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est harum doloremque debitis eum alias recusandae totam velit nesciunt. Laudantium vitae quasi culpa! Cum, ipsa dicta doloremque doloribus assumenda earum nam!"
+    },
+    {
+        image: ourProgramsImage1,
+        title: "Robotics Training",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est harum doloremque debitis eum alias recusandae totam velit nesciunt. Laudantium vitae quasi culpa! Cum, ipsa dicta doloremque doloribus assumenda earum nam!"
+    },
+    {
+        image: ourProgramsImage1,
+        title: "Robotics Training",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est harum doloremque debitis eum alias recusandae totam velit nesciunt. Laudantium vitae quasi culpa! Cum, ipsa dicta doloremque doloribus assumenda earum nam!"
+    },
+    {
+        image: ourProgramsImage1,
+        title: "Robotics Training",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est harum doloremque debitis eum alias recusandae totam velit nesciunt. Laudantium vitae quasi culpa! Cum, ipsa dicta doloremque doloribus assumenda earum nam!"
+    },
+    {
+        image: ourProgramsImage1,
+        title: "Robotics Training",
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est harum doloremque debitis eum alias recusandae totam velit nesciunt. Laudantium vitae quasi culpa! Cum, ipsa dicta doloremque doloribus assumenda earum nam!"
+    },
+];
 
 export const allTeachers = [
     {
         groupName: "School Board",
         groupFacultie: [
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Director Name",
                 role: "Director's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Director Name",
                 role: "Director's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Director Name",
                 role: "Director's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Director Name",
                 role: "Director's Role"
             },
@@ -33,22 +70,22 @@ export const allTeachers = [
         groupName: "Crech-KG (Early Childhood)",
         groupFacultie: [
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
@@ -59,22 +96,22 @@ export const allTeachers = [
         groupName: "Class 1-3",
         groupFacultie: [
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
@@ -85,22 +122,22 @@ export const allTeachers = [
         groupName: "Class 4-6",
         groupFacultie: [
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
@@ -111,22 +148,22 @@ export const allTeachers = [
         groupName: "JHS 1-3",
         groupFacultie: [
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
             {
-                image: image1,
+                image: teachersImage1,
                 name: "Teacher name",
                 role: "Teacher's Role"
             },
