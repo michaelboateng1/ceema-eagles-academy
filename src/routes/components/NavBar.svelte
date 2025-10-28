@@ -20,7 +20,7 @@
             <a href="/programs" class="text-lg">Programs</a>
         </li>
         <li>
-            <a href="/academics" class="text-lg">Academic</a>
+            <a href="/our-community" class="text-lg">Our Community</a>
         </li>
     </ul>
 </nav>

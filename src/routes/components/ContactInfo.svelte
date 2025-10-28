@@ -1,4 +1,6 @@
 <script>
+    import Map from "./Map.svelte";
+
     const directors = [
         {
             name: "Smart Tribe",
@@ -32,7 +34,7 @@
         <div>
             <h2 class="uppercase font-bold mb-2 text-2xl text-[#e07b1c]">Contact us</h2>
             <!-- TODO:Insert a map -->
-            <div class=" h-[300px] w-[400px] bg-black"></div>
+            <Map />
         </div>
 
         <div>
