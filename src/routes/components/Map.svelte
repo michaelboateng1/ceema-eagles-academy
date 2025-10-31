@@ -6,23 +6,23 @@
     let mapContainer: HTMLDivElement;
   
     onMount(() => {
-      const map = L.map(mapContainer).setView([5.6037, -0.1870], 13); // Accra, Ghana
+      const map = L.map(mapContainer).setView([6.636914,  -1.625659], 11); // Accra, Ghana
   
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
       }).addTo(map);
   
-      L.marker([5.6037, -0.1870]).addTo(map)
-        .bindPopup('Ceema Eagles Academy')
+      L.marker([6.636914,  -1.625659]).addTo(map)
+        .bindPopup('Ceema Eagles Academy', { autoClose: false, closeOnClick: false })
         .openPopup();
 
-      L.marker([6.6037, -0.2870]).addTo(map)
-        .bindPopup('Hello from SmartTribe')
-        // .openPopup();
+      L.marker([6.690425, -1.559298]).addTo(map)
+        .bindPopup('SmartTribe', { autoClose: false, closeOnClick: false })
+        .openPopup();
     });
   </script>
 
-  <div bind:this={mapContainer} id="map" class="h-[500px] w-[500px] z-0"></div>
+  <div bind:this={mapContainer} id="map" class="h-[500px] w-[500px] rounded-lg z-0"></div>
   
 
   
