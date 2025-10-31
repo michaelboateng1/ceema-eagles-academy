@@ -17,6 +17,9 @@
             <a href="/contact" class="text-lg">Contact</a>
         </li>
         <li>
+            <a href="/admission" class="text-lg">Admissions</a>
+        </li>
+        <li>
             <a href="/our-programs" class="text-lg">Programs</a>
         </li>
         <li>

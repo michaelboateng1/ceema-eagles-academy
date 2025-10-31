@@ -7,17 +7,16 @@
     let scrolled = $state(false);
 
 	onMount(() => {
-		const handleScroll = () => {
-			scrolled =  window.innerHeight - window.scrollY <= 15 || window.scrollY > 838;
-		};
-		window.addEventListener('scroll', handleScroll);
-        window.addEventListener('DOMContentLoaded', handleScroll);
-        
-		return () => {
-            window.removeEventListener('scroll', handleScroll);
-            window.removeEventListener('DOMContentLoaded', handleScroll);
 
-        };
+		scrolled = window.scrollY > 838;
+
+		const handleScroll = () => {
+			scrolled = window.scrollY > 838;
+		};
+
+		window.addEventListener('scroll', handleScroll);
+        
+		return () => window.removeEventListener('scroll', handleScroll);
 	});
 </script>
 
