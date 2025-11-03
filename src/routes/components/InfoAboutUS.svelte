@@ -25,7 +25,7 @@
     ]
 </script>
 
-<section class="grid grid-cols-4 mt-60">
+<section class="grid grid-cols-2 sm:grid-cols-4 mt-60">
     {#each aboutUs as info, i}
         <div class="flex flex-col {i % 2 !== 0 ? 'flex-col-reverse' : ''}">
             <div class="w-full h-[300px]">

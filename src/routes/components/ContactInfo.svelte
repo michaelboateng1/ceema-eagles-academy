@@ -29,16 +29,15 @@
     ]
 </script>
 
-<section class="flex justify-around gap-5 container mx-auto py-10 px-5 mt-30">
+<section class="flex flex-col sm:flex-row justify-around gap-5 container mx-auto py-10 px-5 mt-30">
     <div class="flex flex-col justify-between">
         <div>
             <h2 class="uppercase font-bold mb-2 text-2xl text-[#e07b1c]">Contact us</h2>
-            <!-- TODO:Insert a map -->
             <Map />
         </div>
 
-        <div>
-            <h2 class="uppercase text-[#e07b1c] font-bold mb-2 text-2xl mt-10">Reach out</h2>
+        <div class="px-5 sm:px-0">
+            <h2 class="uppercase text-[#e07b1c] font-bold mb-2 text-xl sm:text-2xl mt-10">Reach out</h2>
             <p>Kumasi, Ghana</p>
             <address>AF-067-7293</address>
             <address class="mt-5"><a href="tel:+23342092809">+23342092809</a></address>

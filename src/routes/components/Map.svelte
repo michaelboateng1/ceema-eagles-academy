@@ -6,7 +6,7 @@
     let mapContainer: HTMLDivElement;
   
     onMount(() => {
-      const map = L.map(mapContainer).setView([6.636914,  -1.625659], 11); // Accra, Ghana
+      const map = L.map(mapContainer).setView([6.636914,  -1.625659], 11);
   
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
@@ -22,7 +22,7 @@
     });
   </script>
 
-  <div bind:this={mapContainer} id="map" class="h-[500px] w-[500px] rounded-lg z-0"></div>
+  <div bind:this={mapContainer} id="map" class="h-[500px] w-full sm:w-[500px] rounded-lg z-0"></div>
   
 
   

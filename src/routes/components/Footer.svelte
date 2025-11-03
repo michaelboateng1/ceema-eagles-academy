@@ -3,9 +3,9 @@
 </script>
 
 <section class="bg-[#636363] text-[#ccc] pt-10">
-    <div class="flex justify-between items-center gap-5 container mx-auto px-20">
-        <div class="w-[40ch] space-y-5">
-            <div class="w-[100px] overflow-hidden rounded-full h-auto">
+    <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-10 sm:gap-5 container mx-auto px-3 sm:px-20">
+        <div class="sm:w-[40ch] space-y-5">
+            <div class=" w-[60px] sm:w-[100px] overflow-hidden rounded-full h-auto">
                 <img src={logo} alt="School Logo" class="w-full h-full object-cover" />
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorum alias, ad ratione ducimus debitis necessitatibus eius neque. Nobis, eligendi iure consectetur laboriosam quisquam saepe culpa quasi. Eligendi, sequi tempore?</p>
@@ -13,7 +13,7 @@
         <div>
             <h2 class="uppercase font-bold mb-2">Quick Manu</h2>
             <!-- TODO:Add a marker to the list -->
-            <ul class="space-y-2">
+            <ul class="space-y-1 sm:space-y-2">
                 <li>
                     <a href="/">Home</a>
                 </li>
@@ -24,10 +24,10 @@
                     <a href="/contact">Contact us</a>
                 </li>
                 <li>
-                    <a href="/programming">Our Programs</a>
+                    <a href="/our-programs">Our Programs</a>
                 </li>
                 <li>
-                    <a href="/academics">Our Academics</a>
+                    <a href="/admission">Our Admissions</a>
                 </li>
             </ul>
         </div>

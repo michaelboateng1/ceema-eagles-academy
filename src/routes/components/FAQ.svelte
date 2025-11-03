@@ -33,8 +33,8 @@
     }
 </script>
 
-<section class="container mx-auto w-[800px] px-20 mb-20 mt-60">
-    <h2 class="capitalize font-bold mb-10 text-center text-2xl">Freaquently asked question.</h2>
+<section class="container mx-auto sm:w-[800px]  sm:px-20 mb-20 mt-60">
+    <h2 class="capitalize font-bold mb-10 text-center text-xl sm:text-2xl">Freaquently asked question.</h2>
     {#each faqs as faq, i}
         <div class="shadow-lg rounded-sm border-t-4 ">
             <div class="px-10 py-5 cursor-pointer text-md font-bold flex justify-between items-center" onclick={() => toggleFaq(i)}>
