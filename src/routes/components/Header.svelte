@@ -1,6 +1,8 @@
 <script>
     import { onMount } from 'svelte';
     import NavBar from "./NavBar.svelte";
+    
+    import MobileNav from './MobileNav.svelte';
 
     const {page} = $props();
 
@@ -20,9 +22,10 @@
 	});
 </script>
 
-<header class="fixed top-0 z-10 w-full transition-all duration-300 {scrolled || page !== "home" ? 'bg-white text-[#333] shadow-md' : 'header-bg text-white'}">
+<header class="fixed top-0 z-20 w-full transition-all duration-300 {scrolled || page !== "home" ? 'bg-white text-[#333] shadow-md' : 'header-bg text-white'}">
     <NavBar />
 </header>
+<MobileNav />
 
 <style>
     .header-bg {
