@@ -3,7 +3,7 @@
     import image2 from "$lib/assets/images/children-1144109_1280.jpg";
 </script>
 
-<section class="container mx-auto px-5 sm:px-20 flex justify-center items-start mt-20 sm:mt-60 mb-20">
+<section class="container mx-auto px-5 sm:px-20 flex justify-center items-center lg:items-start mt-20 sm:mt-60 mb-20">
     <div class="w-[50ch] pt-20">
         <h2 class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
         <p class="mb-10 text-sm text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem harum alias doloremque sequi accusantium molestiae quisquam ipsa? Atque libero, numquam incidunt blanditiis nostrum amet a veritatis? Tempore, commodi assumenda?</p>

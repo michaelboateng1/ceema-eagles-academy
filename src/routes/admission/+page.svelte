@@ -17,7 +17,7 @@
         <p class="text-sm sm:text-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe sapiente mollitia obcaecati eligendi doloremque quod sed voluptas vero molestias temporibus vitae, voluptatum quas ad itaque rerum illum magni aliquid animi, quidem ab fugit similique eos voluptatibus! Distinctio et autem exercitationem.</p>
         <a href="/contact" data-sveltekit-preload-data="hover" class="capitalize font-semibold text-[#e07b1c] mt-2 inline-block">Contact us</a>
     </IntroText>
-    <div class="grid grid-cols-1 sm:grid-cols-4 gap-5 container mx-auto px-5 sm:px-10 py-20">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 container mx-auto px-5 sm:px-10 py-20">
         {#each ourStatges as stage, i }
             <Stages {stage} {i} />
         {/each}

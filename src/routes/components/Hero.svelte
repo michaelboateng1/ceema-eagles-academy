@@ -22,9 +22,9 @@
     </div>
 
     <div class="flex container mx-auto justify-center items-center gap-8 absolute px-30 -bottom-20">
-        <HeroCards hide={true} />
-        <HeroCards hide={true} />
-        <HeroCards hide={false} />
+        <HeroCards />
+        <HeroCards />
+        <HeroCards />
     </div>
 </section>
 

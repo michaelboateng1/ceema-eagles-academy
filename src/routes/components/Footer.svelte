@@ -3,7 +3,7 @@
 </script>
 
 <section class="bg-[#636363] text-[#ccc] pt-10">
-    <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-10 sm:gap-5 container mx-auto px-3 sm:px-20">
+    <div class="flex flex-col flex-wrap sm:flex-row justify-between sm:items-center gap-10 sm:gap-5 container mx-auto px-3 sm:px-20">
         <div class="sm:w-[40ch] space-y-5">
             <div class=" w-[60px] sm:w-[100px] overflow-hidden rounded-full h-auto">
                 <img src={logo} alt="School Logo" class="w-full h-full object-cover" />

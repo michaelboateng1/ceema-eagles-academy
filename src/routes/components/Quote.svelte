@@ -2,7 +2,7 @@
     import image from '$lib/assets/images/children-1144109_1280.jpg';
 </script>
 
-<section class="flex items-start justify-start container h-auto sm:h-[300px] mx-auto mb-20  mt-50  sm:px-30">
+<section class="flex items-start justify-start container h-auto sm:h-[300px] mx-auto mb-20  mt-50 md:px-5 lg:px-30">
     <div class=" h-full w-full bg-white overflow-hidden hidden sm:block">
         <img src={image} alt="" class="w-full h-full object-cover" />
     </div>
