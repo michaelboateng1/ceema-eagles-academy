@@ -31,7 +31,7 @@
     </div>
     <section class="mt-20 bg-[#ebeae5] py-30 ">
         <h2 class="uppercase font-bold mb-20 text-xl sm:text-2xl text-center">Why choose Ceema Eagles</h2>
-        <div class="flex flex-col justify-center gap-10 sm:gap-5 items-center">
+        <div class="flex flex-wrap justify-center gap-10 sm:gap-5 items-center">
             {#each sections as section}
                 <figure>
                     <div class="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] overflow-hidden rounded-full border-10 border-white">

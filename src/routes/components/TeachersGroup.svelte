@@ -3,9 +3,6 @@
 
     export let groupName;
     export let groupFaculties;
-
-    console.log(groupName)
-    console.log(groupFaculties);
 </script>
 
 <article class="sm:px-20 px-5 py-10">
