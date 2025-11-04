@@ -1,7 +1,6 @@
 <script>
-    import Logo from "$lib/assets/images/schoolLogo.jpg";
-
     import mobileNav from "../store/store";
+    import Logo from "$lib/assets/images/schoolLogo.jpg";
 
 </script>
 
@@ -10,22 +9,22 @@
         <img src={Logo} alt="School Logo" class="w-full h-full object-cover">
     </div>
     <ul class="hidden lg:flex gap-5 justify-center font-semibold items-center">
-        <li class="before:content-[' '] relative before:absolute before:-bottom-1 before:left-0 before:w-0 hover:before:w-full transition duration-300 before:h-[4px] before:bg-black before:block ">
+        <li class="before:content-[' '] relative before:absolute before:-bottom-1 before:left-0 before:w-0  hover:before:w-full before:opacity-0 hover:before:opacity-100 before:transtion-all before:duration-300 before:h-[4px] before:rounded-lg before:bg-[#e07b1c] ">
             <a href="/" class="text-lg">Home</a>
         </li>
-        <li>
+        <li class="before:content-[' '] relative before:absolute before:-bottom-1 before:left-0 before:w-0  hover:before:w-full before:opacity-0 hover:before:opacity-100 before:transtion-all before:duration-300 before:h-[4px] before:rounded-lg before:bg-[#e07b1c]" >
             <a href="/about" class="text-lg">About</a>
         </li>
-        <li>
+        <li class="before:content-[' '] relative before:absolute before:-bottom-1 before:left-0 before:w-0  hover:before:w-full before:opacity-0 hover:before:opacity-100 before:transtion-all before:duration-300 before:h-[4px] before:rounded-lg before:bg-[#e07b1c]">
             <a href="/contact" class="text-lg">Contact</a>
         </li>
-        <li>
+        <li class="before:content-[' '] relative before:absolute before:-bottom-1 before:left-0 before:w-0  hover:before:w-full before:opacity-0 hover:before:opacity-100 before:transtion-all before:duration-300 before:h-[4px] before:rounded-lg before:bg-[#e07b1c]">
             <a href="/admission" class="text-lg">Admissions</a>
         </li>
-        <li>
+        <li class="before:content-[' '] relative before:absolute before:-bottom-1 before:left-0 before:w-0  hover:before:w-full before:opacity-0 hover:before:opacity-100 before:transtion-all before:duration-300 before:h-[4px] before:rounded-lg before:bg-[#e07b1c]">
             <a href="/our-programs" class="text-lg">Programs</a>
         </li>
-        <li>
+        <li class="before:content-[' '] relative before:absolute before:-bottom-1 before:left-0 before:w-0  hover:before:w-full before:opacity-0 hover:before:opacity-100 before:transtion-all before:duration-300 before:h-[4px] before:rounded-lg before:bg-[#e07b1c]">
             <a href="/our-community" class="text-lg">Our Community</a>
         </li>
     </ul>
