@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-	import favicon from '$lib/assets/images/get.jpeg';
+	import favicon from '$lib/assets/images/schoolLogo.jpg';
 
 	import Footer from './components/Footer.svelte';
 
