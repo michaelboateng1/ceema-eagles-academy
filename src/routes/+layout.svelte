@@ -5,6 +5,7 @@
 	import AOS from 'aos';
 	import 'aos/dist/aos.css';
 
+	import ChatBot from './components/ChatBot.svelte';
 	import Footer from './components/Footer.svelte';
 
 	let { children } = $props();
@@ -14,6 +15,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
+<ChatBot />
 {@render children?.()}
 <Footer />
 

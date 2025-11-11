@@ -34,9 +34,10 @@
 		"vite": "^7.1.7"
 	},
 	"dependencies": {
+		"@google/genai": "^1.29.0",
 		"aos": "^2.3.4",
 		"gsap": "^3.13.0",
 		"leaflet": "^1.9.4",
-		"nodemailer-mailchimp-transactional": "^1.1.0"
+		"nodemailer": "^7.0.10"
 	}
 }
