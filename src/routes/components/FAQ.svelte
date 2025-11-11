@@ -37,7 +37,7 @@
     <h2 class="capitalize font-bold mb-10 text-center text-xl sm:text-2xl">Freaquently asked question.</h2>
     {#each faqs as faq, i}
         <div class="shadow-lg rounded-sm border-t-4 ">
-            <div class="px-10 py-5 cursor-pointer text-md font-bold flex justify-between items-center" onclick={() => toggleFaq(i)}>
+            <div class="px-10 py-5 cursor-pointer text-md font-bold flex justify-between items-center" tabindex="0" role="button" onkeydown={() => toggleFaq} onclick={() => toggleFaq(i)}>
                 <h2>{faq.question}</h2>
                 <i class="fa-solid fa-chevron-down transform transition-all duration-300 {i === currentFaq ? 'rotate-180' : 'rotate-0'}"></i>
             </div>
