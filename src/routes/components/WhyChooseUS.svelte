@@ -27,7 +27,10 @@
 <section class="">
     <div class="text-center text-[#333] p-10 mt-60">
         <h2 class="uppercase font-bold mb-5 text-xl sm:text-2xl text-[#e07b1c]">Where curious minds explor, engage, and connect</h2>
-        <p class="text-sm sm:text-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe sapiente mollitia obcaecati eligendi doloremque quod sed voluptas vero molestias temporibus vitae, voluptatum quas ad itaque rerum illum magni aliquid animi, quidem ab fugit similique eos voluptatibus! Distinctio et autem exercitationem.</p>
+        <p class="text-sm sm:text-normal">At Ceema Eagles Academy, learning goes beyond the classroom. We create an inspiring environment where
+            students ask questions, discover new ideas, and build the confidence to express themselves. Through
+            interactive lessons, hands-on activities, and a supportive community, every learner is encouraged to
+            grow, connect, and reach greater heights.</p>
     </div>
     <section class="mt-20 bg-[#ebeae5] py-30 ">
         <h2 class="uppercase font-bold mb-20 text-xl sm:text-2xl text-center">Why choose Ceema Eagles</h2>
@@ -43,9 +46,3 @@
         </div>
     </section>
 </section>
-
-<style>
-    /* p{
-        color: #ebeae5;
-    } */
-</style>

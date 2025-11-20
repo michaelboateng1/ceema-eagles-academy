@@ -14,9 +14,17 @@
 <Header {page} />
 <main>
     <IntroText>
-        <h1 class="uppercase font-bold mb-5 text-xl sm:text-2xl text-[#e07b1c]">Meet our passionate faculty</h1>
-        <p class="text-sm sm:text-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe sapiente mollitia obcaecati eligendi doloremque quod sed voluptas vero molestias temporibus vitae, voluptatum quas ad itaque rerum illum magni aliquid animi, quidem ab fugit similique eos voluptatibus! Distinctio et autem exercitationem.</p>
-    </IntroText>
+        <h1 class="uppercase font-bold mb-5 text-xl sm:text-2xl text-[#e07b1c]">
+          Meet our passionate faculty
+        </h1>
+        <p class="text-sm sm:text-normal">
+          Our dedicated faculty at Ceema Eagles Academy and Smart Tribe are committed to nurturing
+          curiosity, creativity, and academic excellence. From experienced teachers to skilled program
+          directors, each member inspires students to explore, learn, and achieve their full potential
+          in academics, coding, robotics, and abacus programs.
+        </p>
+      </IntroText>
+      
     {#each allTeachers as teachers}
         <TeachersGroup groupFaculties={teachers.groupFacultie} groupName={teachers.groupName} />
     {/each}

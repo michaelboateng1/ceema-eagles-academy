@@ -13,16 +13,13 @@
 		</p>
 		<ul class="space-y-3 px-10 text-sm text-[#333]">
 			<li>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sunt ullam blanditiis!
-				Nemo recusandae, et nisi quo corrupti officia! Excepturi!
+				Our dedicated counseling team provides personalized support to ensure every student's emotional and academic needs are met.
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sunt ullam blanditiis!
-				Nemo recusandae, et nisi quo corrupti officia! Excepturi!
+				We maintain a zero-tolerance policy against bullying, with comprehensive anti-bullying programs and peer support systems.
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sunt ullam blanditiis!
-				Nemo recusandae, et nisi quo corrupti officia! Excepturi!
+				Regular mental health workshops and stress management sessions help students develop resilience and healthy coping mechanisms.
 			</li>
 		</ul>
 	</div>

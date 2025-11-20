@@ -1,31 +1,30 @@
 <script>
     const faqs = [
-        {
-            question: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nemo?",
-            answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quasi eum soluta officiis eos nihil quibusdam, minima omnis sequi dicta amet deleniti vitae harum maxime rem reiciendis cumque ea temporibus accusantium nesciunt illo voluptates dolorem. Explicabo quasi consequuntur et magnam dolor, qui vel voluptas eligendi, itaque debitis, cupiditate eveniet nemo tempora maiores! Numquam doloremque vero, at officiis quasi sequi veritatis totam! Cupiditate expedita recusandae laborum quasi reprehenderit placeat beatae illum sunt ea sapiente, aliquid voluptas quas ipsam officia corrupti culpa maiores facere, quisquam odit pariatur ad eaque. Deserunt placeat quia inventore error, tempore maxime repellat. Voluptatem porro voluptates necessitatibus iure!"
-        },
-        {
-            question: "Lorem ipsum dolor sit amet?",
-            answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatibus in neque eos, quasi dolorem perspiciatis nostrum? Error excepturi eius quasi laudantium veniam corrupti quam aspernatur voluptatem optio, vero deserunt reprehenderit minus earum rem animi quibusdam! Provident iure quos molestiae earum sed odio quibusdam, dolores in pariatur ex quidem illum."
-        },
-        {
-            question: "Lorem, ipsum dolor?",
-            answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis voluptas ea assumenda praesentium cum vel, earum atque voluptate reprehenderit laboriosam hic, provident nam! Vero minus maiores et odio voluptatum."
-        },
-        {
-            question: "lorem",
-            answer: "lorem, ipsum"
-        },
-        {
-            question: "lorem",
-            answer: "lorem, ipsum"
-        },
-        {
-            question: "lorem",
-            answer: "lorem, ipsum"
-        },
-    ]
-
+    {
+        question: "What programs does Ceema Eagles Academy offer?",
+        answer: "We offer a variety of programs including Robotics, Coding & Programming, Abacus Training, and Smart Tribe Languages. Our curriculum is designed to foster innovation, critical thinking, and academic excellence in a supportive learning environment."
+    },
+    {
+        question: "What are the school hours?",
+        answer: "Our regular school hours are from 7:30 AM to 2:30 PM, Monday through Friday. We also offer after-school programs and extracurricular activities that may extend beyond these hours."
+    },
+    {
+        question: "How does the admission process work?",
+        answer: "Our admission process includes submission of application forms, academic records review, and an assessment test. We encourage parents and students to visit our campus for a tour and interview before finalizing enrollment."
+    },
+    {
+        question: "What safety measures are in place for students?",
+        answer: "We prioritize student safety with secure campus access, CCTV surveillance, trained security personnel, comprehensive anti-bullying programs, and regular safety drills. Our staff is trained in first aid and emergency response procedures."
+    },
+    {
+        question: "Do you offer scholarships or financial aid?",
+        answer: "Yes, we offer need-based financial aid and merit scholarships. Please contact our admissions office for specific details about eligibility and application procedures for financial assistance programs."
+    },
+    {
+        question: "What technology is integrated into the learning experience?",
+        answer: "Our classrooms are equipped with smart boards, and students have access to computer labs and tablets. We incorporate educational technology and digital literacy across our curriculum to prepare students for the modern world."
+    }
+];
     let currentFaq = $state(null);
 
     const toggleFaq = (i) => {

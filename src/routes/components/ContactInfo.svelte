@@ -2,31 +2,32 @@
     import Map from "./Map.svelte";
 
     const directors = [
-        {
-            name: "Smart Tribe",
-            role: "Coding, Abacus and Robotics Partener",
-            email: "kofi@gmail.com",
-            number: "026782392209"
-        },
-        {
-            name: "Kofi Mafo",
-            role: "Program Director",
-            email: "kofi@gmail.com",
-            number: "026782392209"
-        },
-        {
-            name: "Kofi Mafo",
-            role: "Program Director",
-            email: "kofi@gmail.com",
-            number: "026782392209"
-        },
-        {
-            name: "Kofi Mafo",
-            role: "Program Director",
-            email: "kofi@gmail.com",
-            number: "026782392209"
-        }
-    ]
+  {
+    name: "Enoch Okyere Dadzie",
+    role: "Administrator - Ceema Eagles Academy",
+    email: "unknown",
+    number: "unknown"
+  },
+  {
+    name: "Kwadwo Adu-Amankwa",
+    role: "Head Teacher - Ceema Eagles Academy",
+    email: "unknown",
+    number: "unknown"
+  },
+  {
+    name: "Smart Tribe Ghana",
+    role: "Coding, Abacus & Robotics Partner",
+    email: "info@thesmartribe.com",
+    number: "0205003933"
+  },
+  {
+    name: "Isaac Kofi Maafo",
+    role: "Program Director - Smart Tribe",
+    email: "isaac@isaackofimaafo.com",
+    number: "0558740741"
+  }
+];
+
 </script>
 
 <section class="flex flex-col sm:flex-row justify-around gap-5 container mx-auto py-10 px-5 mt-30">

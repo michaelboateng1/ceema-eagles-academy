@@ -10,13 +10,12 @@
 	</div>
 	<div class="h-full bg-[#e07b1c] p-5 text-white sm:p-10">
 		<p class="quote relative pt-16 italic sm:pl-10">
-			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, enim numquam cum voluptate
-			incidunt nobis voluptates ex. Soluta, perspiciatis consequuntur.
+			Ceema Eagles Academy transformed my approach to learning. The robotics program sparked my interest in technology, and the supportive teachers helped me build confidence in my coding skills. I've made incredible progress in just a few months!
 		</p>
 
 		<div class="mt-10 px-10 pb-10 sm:pb-0">
-			<h3 class="text-md font-bold">Michael Boateng</h3>
-			<p class="text-sm">SVA Student</p>
+			<h3 class="text-md font-bold">James Bonsu</h3>
+			<p class="text-sm">JHS-3 Student</p>
 		</div>
 	</div>
 </section>

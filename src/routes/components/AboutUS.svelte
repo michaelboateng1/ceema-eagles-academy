@@ -11,10 +11,7 @@
 					<div class="absolute top-[70%] left-1/2 -translate-1/2 transform">&#x275D;</div>
 				</div>
 				<p class="sm:text-normal text-sm">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae harum voluptatibus
-					similique possimus, suscipit nisi ratione incidunt eveniet porro magnam in, voluptates nam
-					id unde corrupti eum architecto natus aliquam, quod repellat. Velit esse tempora vel,
-					soluta perferendis quia veniam.
+					At Ceema Eagles Academy, we believe in nurturing young minds to soar to their highest potential. Our innovative approach to education combines academic rigor with practical skills, empowering students to become confident leaders and creative problem-solvers in an ever-changing world.
 				</p>
 			</div>
 			<div class="h-auto w-full">
@@ -23,28 +20,25 @@
 		</div>
 		<div class="sm:text-normal space-y-16 py-5 text-sm text-[#333]">
 			<p>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad placeat tempora neque harum,
-				repudiandae facilis suscipit aperiam, minus nam mollitia ducimus officia pariatur! Modi
-				tenetur repellat aliquid earum numquam magni totam, et veritatis quas unde, neque vitae
-				dolores, beatae delectus!
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quisquam non
-				necessitatibus, cum dolores inventore tenetur sunt, commodi incidunt sapiente saepe dicta
-				deleniti fuga molestiae suscipit autem quod ex, distinctio ducimus! Sint libero omnis
-				laudantium consequuntur consectetur sit vel enim molestias commodi culpa, perspiciatis
-				reiciendis quibusdam veritatis fugiat inventore expedita illo eius facere! Esse ipsa fugit
-				excepturi quam, reiciendis totam deleniti quae aliquid exercitationem laborum tenetur
-				ratione ex. Temporibus obcaecati sit omnis error quia nobis voluptatem laboriosam molestias,
-				facere officiis perferendis vitae hic sunt, voluptas nemo odio nulla libero maxime rem at
-				ex? Fugit iure corporis alias hic ut ipsum!
-			</p>
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas eos et, atque placeat
-				fuga quaerat at magni! Iusto, iure. Labore itaque, tempore facere, obcaecati, soluta iure ea
-				quos sequi ipsa provident fugiat minus officiis! Numquam optio repudiandae adipisci harum
-				animi enim beatae, fugiat mollitia doloribus. Labore neque similique eveniet tempora?
-			</p>
+				Ceema Eagles Academy is a growing educational institution in Kumasi dedicated to nurturing confident,
+				disciplined, and academically strong students. The school focuses on providing a solid foundation in
+				literacy, numeracy, and character development while creating a safe, supportive environment for
+				children to learn and thrive.
+			  </p>
+			
+			  <p>
+				With committed teachers and a structured academic system, Ceema Eagles Academy blends modern teaching
+				methods with strong moral training. The school emphasizes creativity, practical learning, discipline,
+				and excellence, helping students develop the skills they need for both school life and the world
+				beyond. From classroom activities to extracurricular programs, every aspect of the learning
+				experience is designed to unlock each child’s potential.
+			  </p>
+			
+			  <p>
+				At Ceema Eagles Academy, every student is valued, guided, and encouraged to soar higher—just like an
+				eagle. The academy continues to invest in quality education, improved facilities, and innovative
+				learning experiences to ensure every learner receives the best possible start in life.
+			  </p>
 		</div>
 	</div>
 </section>

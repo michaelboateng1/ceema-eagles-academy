@@ -6,23 +6,23 @@
 
 
     const aboutUs = [
-        {
-            image: image1,
-            text: "Lorem ipsum dolor sit amet consectetur."
-        },
-        {
-            image: image2,
-            text: "Lorem ipsum dolor sit amet consectetur."
-        },
-        {
-            image: image3,
-            text: "Lorem ipsum dolor sit amet consectetur."
-        },
-        {
-            image: image4,
-            text: "Lorem ipsum dolor sit amet consectetur."
-        },
-    ]
+  {
+    image: image1,
+    text: "A nurturing learning environment where every child is guided to grow with confidence."
+  },
+  {
+    image: image2,
+    text: "Dedicated teachers providing strong academic support and moral training."
+  },
+  {
+    image: image3,
+    text: "Modern teaching methods that inspire creativity, problem-solving, and curiosity."
+  },
+  {
+    image: image4,
+    text: "A community that encourages excellence, discipline, and lifelong learning."
+  },
+];
 </script>
 
 <section class="grid grid-cols-2 sm:grid-cols-4 mt-60">

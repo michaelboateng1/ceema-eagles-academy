@@ -8,7 +8,7 @@
             <div class=" w-[60px] sm:w-[100px] overflow-hidden rounded-full h-auto">
                 <img src={logo} alt="School Logo" class="w-full h-full object-cover" />
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorum alias, ad ratione ducimus debitis necessitatibus eius neque. Nobis, eligendi iure consectetur laboriosam quisquam saepe culpa quasi. Eligendi, sequi tempore?</p>
+            <p>Ceema Eagles Academy is dedicated to nurturing young minds through innovative education. We provide a dynamic learning environment that combines academic excellence with practical skills in technology and languages, preparing students to become future leaders and innovators in an ever-evolving world.</p>
         </div>
         <div>
             <h2 class="uppercase font-bold mb-2">Quick Manu</h2>
