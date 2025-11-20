@@ -117,7 +117,7 @@
         {/each}
     </div>
     <form onsubmit={() => sendPrompt()} class="flex justify-between items-center gap-5 p-2 bg-[#000]">
-        <input bind:this={prompt} type="text" autofocus placeholder="How can I help you..." class="flex-1 w-full bg-white rounded-2xl border-2 border-[#e07b1c]" />
+        <input bind:this={prompt} type="text" placeholder="How can I help you..." class="flex-1 w-full bg-white rounded-2xl border-2 border-[#e07b1c]" />
         <button type="submit" class="bg-white px-3 py-2 rounded-2xl border-2 border-[#e07b1c] " >Send</button>
     </form>
 </section>
