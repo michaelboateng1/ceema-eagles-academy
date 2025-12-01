@@ -33,11 +33,10 @@
         </div>
         <div>
             <h2 class="uppercase font-bold mb-2">Get in touch</h2>
-            <div>
-                <!-- TODO:Replace and correct the icons -->
-                <a href="#"><i class="fa fa-facebook">facebook</i></a>
-                <a href="#"><i class="fa fa-instagram">instagram</i></a>
-                <a href="#"><i class="fa fa-linkedin">linkedin</i></a>
+            <div class="flex items-center justify-around gap-5">
+                <a href="#"><i class="fa-brands fa-facebook-f hover:text-[#e07b1c] transition-colors duration-300 text-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram hover:text-[#e07b1c] transition-colors duration-300 text-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in hover:text-[#e07b1c] transition-colors duration-300 text-lg"></i></a>
             </div>
             <a href="/contact" class="py-2 px-5 border-2 hover:bg-[#e07b1c] transition-colors duration-300 font-semibold border-[#e07b1c] rounded-lg inline-block mt-4">Contact us</a>
         </div>
